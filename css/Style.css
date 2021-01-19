@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+
+body
+{
+	margin: 0px;
+	background-color: #EDD9FF;
+}
+
+.content
+{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-template-rows: 80px repeat(3,30vh)  40px;
+}
+
+/*Header*/
+
+.header
+{
+	background-color: #687FFF;
+	grid-column: 1/span 3;
+	display: grid;
+	grid-template-columns: 120px 1fr repeat(4,minmax(5px,15vh)) 200px;
+	grid-template-rows: 80px;
+	justify-items: center;
+	align-items: center;
+	min-height: 80px;
+	color:#FFF;
+}
+
+.header_imgLogo
+{
+	min-width: 60px;
+	min-height: 60px;
+	height: 60px;
+	width: 60px;
+}
+
+.header_pHolistica
+{
+	font-family: 'Oxygen', sans-serif;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.header_menu
+{
+	font-family: 'Oxygen',serif;
+	font-size: 15px;
+}
+
+
+
+/*Article*/
+.art
+{
+	grid-column: 1/span 3;
+	grid-row: 2/span 3;
+	display: grid;
+	grid-template-columns: repeat(8,minmax(60px,1fr));
+	grid-template-rows: repeat(9, minmax(10px,1fr));
+
+}
+
+.art_bd
+{
+	background-color: #FAF9FF;
+	grid-column: 2 / span 6;
+	grid-row: 2 / span 7;
+	border-radius: 10px;
+	box-shadow: 0px 10px 30px 2px;
+	min-height: 30px;
+}
+
+
+/*Footer*/
+.footer
+{
+	background-color: #49E8BE;
+	grid-column: 1/span 3;
+	grid-row: 5/span 6;
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+}
+

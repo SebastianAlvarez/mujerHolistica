@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
+
+.art_bd
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.art_bd-imglogin
+{
+	width: 200px;
+	height: 200px;
+	border: 5px;
+	border-style: solid;
+	border-color: #A11160;
+	border-radius: 30%;
+	margin-bottom: 50px;
+	margin-top: 20px;
+}
+
+.art_bd-email
+{
+	width: 70%;
+	height: 20px;
+	border-width: 2px;
+	border-radius: 10px;
+	border-color: #A11160;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	text-align: center;
+	font-family: 'Oxygen', serif;
+	font-size: 20px;
+}
+
+.art_bd-pass
+{
+	width: 70%;
+	height: 20px;
+	border-width: 2px;
+	border-radius: 10px;
+	border-color: #A11160;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	text-align: center;
+	font-family: 'Oxygen', serif;
+	font-size: 20px;
+}
+
+.art_bd-accept
+{
+	width: 30%;
+	height: 30px;
+	border-width: 2px;
+	border-radius: 10px;
+	border-color: #FFF;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	text-align: center;
+	font-family: 'Oxygen', serif;
+	font-size: 20px;
+	box-shadow: 0px 10px 20px 5px #FFF; 
+	transition: 5s; 
+}
+
+.art_bd-accept:hover
+{
+	transition: 5s;
+	box-shadow: 0px 10px 20px 5px #A11160;
+}
