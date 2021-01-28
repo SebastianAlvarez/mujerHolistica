@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&display=swap');
 
+html {
+	box-sizing: border-box;
+  }
+  *, *:before, *:after {
+	box-sizing: inherit;
+  }
+
+  img{
+	  max-width: 100%;
+  }
+
 body
 {
 	margin: 0px;
@@ -27,6 +38,38 @@ body
 	min-height: 80px;
 	color:#FFF;
 }
+.header2{
+	background-color: #687FFF;
+	padding: 15px 0;
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.flex{
+	display: flex;
+	justify-content: space-between;
+}
+
+.navegacion{
+	flex-basis: 60%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.navegacion a{
+	color: white;
+	text-decoration: none;
+	margin:  auto 0;
+	font-size: 20px;
+}
+
+.navegacion a:hover{
+	color: #8bea00;
+	cursor: pointer;
+}
+
+
 
 .header_imgLogo
 {
@@ -41,6 +84,8 @@ body
 	font-family: 'Oxygen', sans-serif;
 	font-weight: bold;
 	font-size: 40px;
+	color: white;
+	text-decoration: none;
 }
 
 .header_menu
@@ -84,3 +129,19 @@ body
 	align-items:center;
 }
 
+/*Vista Conocenos*/
+
+.nosotros{
+	display: flex;
+	justify-content: space-between;
+}
+
+.imagen-nosotros{
+	flex-basis: 48%;
+}
+
+.nosotros p{
+	flex-basis: 48%;
+	line-height: 2;
+	font-size: 20px;
+}
