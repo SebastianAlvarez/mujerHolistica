@@ -19,7 +19,7 @@
 				<a href="index.php?menu=servicios" class="header_menu">Servicios</a>
 				<a href="index.php?menu=contactanos" class="header_menu">Contactanos</a>
 				<a href="#" class="header_menu">Darse de alta</a>
-				<a href="index.php?menu=iniciar_sesion" class="header_menu">Iniciar Sesión</a>
+				<a href="inicioSesion.php" class="header_menu">Iniciar Sesión</a>
 			</nav>	
 		</div>
 	</header>
@@ -37,7 +37,7 @@
 				<input class="art_bd-pass col-12 col-md" type="password" name="password" placeholder="password">
 			</div>	
 				<input type="submit" value="Aceptar" class="art_bd-accept">
-				<p class="text-center">¿Aun no te has registrado? Crea una cuenta ando click <a href="index.php?menu=registrarse">aqui</a></p>
+				<p class="text-center">¿Aun no te has registrado? Crea una cuenta ando click <a href="registro.php">aqui</a></p>
 		</form>
 	</main>
 			

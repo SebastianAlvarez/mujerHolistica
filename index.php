@@ -10,12 +10,6 @@ if(isset($_GET["menu"])){
     if($menu == "contactanos"){
         require_once 'views/ubicacion.php';
     }
-    if($menu == "iniciar_sesion"){
-        require_once 'views/Login.php';
-    }
-    if($menu == "registrarse"){
-        require_once 'views/registro.php';
-    }
 }else{
    
     require_once 'views/Home.php';

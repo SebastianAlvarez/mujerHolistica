@@ -18,7 +18,7 @@
 				<a href="index.php?menu=servicios" class="header_menu">Servicios</a>
 				<a href="index.php?menu=contactanos" class="header_menu">Contactanos</a>
 				<a href="#" class="header_menu">Darse de alta</a>
-				<a href="index.php?menu=iniciar_sesion" class="header_menu">Iniciar Sesión</a>
+				<a href="inicioSesion.php" class="header_menu">Iniciar Sesión</a>
 			</nav>	
 		</div>
 	</header>
@@ -45,7 +45,7 @@
             <input type="submit" value="Aceptar" class="art_bd-accept">
 
         </form>
-        <p class="text-center">¿Ya tienes cuenta? Inicia sesión dando click <a href="index.php?menu=iniciar_sesion">aqui</a></p>
+        <p class="text-center">¿Ya tienes cuenta? Inicia sesión dando click <a href="inicioSesion.php">aqui</a></p>
 
 	</main>
 
