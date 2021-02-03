@@ -16,13 +16,13 @@
 			<a href="index.php?menu=conocenos" class="header_menu">Conocenos</a>
 			<a href="index.php?menu=servicios" class="header_menu">Servicios</a>
 			<a href="index.php?menu=contactanos" class="header_menu">Contactanos</a>
-			<a href="#" class="header_menu">Darse de alta</a>
+			<a href="index.php?menu=alta" class="header_menu">Darse de alta</a>
 			<a href="inicioSesion.php" class="header_menu">Iniciar Sesión</a>
 		</nav>	
 	</div>
 </header>
 
-<main>
+<main class="alta">
     <h1>Darse de alta en la clinica</h1>
     <p>Para que la clinica Mujer Holistica pueda ofrecer sus servicios a cada uno de los usuarios, es necesario que estén dados de alta.
     </p>

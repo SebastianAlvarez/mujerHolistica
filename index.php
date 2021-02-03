@@ -10,6 +10,9 @@ if(isset($_GET["menu"])){
     if($menu == "contactanos"){
         require_once 'views/ubicacion.php';
     }
+    if($menu == "alta"){
+        require_once 'views/alta.php';
+    }
 }else{
    
     require_once 'views/Home.php';

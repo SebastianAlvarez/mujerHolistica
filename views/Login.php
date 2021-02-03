@@ -20,7 +20,7 @@
 				<a href="index.php?menu=conocenos" class="header_menu">Conocenos</a>
 				<a href="index.php?menu=servicios" class="header_menu">Servicios</a>
 				<a href="index.php?menu=contactanos" class="header_menu">Contactanos</a>
-				<a href="#" class="header_menu">Darse de alta</a>
+				<a href="index.php?menu=alta" class="header_menu">Darse de alta</a>
 				<a href="inicioSesion.php" class="header_menu">Iniciar Sesión</a>
 			</nav>
 		</div>
@@ -41,7 +41,7 @@
 			<button type="submit" class="art_bd-accept" name="sesion">Iniciar</button></th>
 
 		</form>	
-		<div>
+		<div class="bg-danger bg-gradient  p-2 alerta">
 			<h4><?php echo $alerta; ?></h4>
 		</div>
 		<p class="text-center">¿Aun no te has registrado? Crea una cuenta ando click <a href="registro.php">aqui</a></p>

@@ -19,7 +19,7 @@
 				<a href="index.php?menu=conocenos" class="header_menu">Conocenos</a>
 				<a href="index.php?menu=servicios" class="header_menu">Servicios</a>
 				<a href="index.php?menu=contactanos" class="header_menu">Contactanos</a>
-				<a href="#" class="header_menu">Darse de alta</a>
+				<a href="index.php?menu=alta" class="header_menu">Darse de alta</a>
 				<a href="inicioSesion.php" class="header_menu">Iniciar Sesión</a>
 			</nav>
 		</div>
