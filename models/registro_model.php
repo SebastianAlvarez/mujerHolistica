@@ -13,7 +13,7 @@ function get_folio($folio)
 function set_paciente($folio, $password, $correo)
 {
     require_once 'db/db_fns.php';
-    $sql = "INSERT INTO usuarios_pacientes (folios_clinica_folio, contraseña, email) VALUES ('$folio', '$password', '$correo')";
+    $sql = "INSERT INTO usuarios_pacientes (folios_clinica_folio, contrasena, email) VALUES ('$folio', '$password', '$correo')";
     $empleado_result = insert_items($sql);
     return $empleado_result;
 }
