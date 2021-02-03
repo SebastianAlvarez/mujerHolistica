@@ -4,21 +4,21 @@
 	<title>Mujer Holística</title>
 	<meta charset="utf-8">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-	<link rel="stylesheet" href="../css/Style.css">
+	<link rel="stylesheet" href="css/Style.css">
 
 </head>
 <body>
-	<header class="header2">
+<header class="header2">
 		<div class="container flex">
-		<img class="header_imgLogo" src="../Images/MHLogo.png">
-		<a href="Home.html" class="header_pHolistica">Mujer Holistica</a>
+			<img class="header_imgLogo" src="Images/MHLogo.png">
+			<a href="index.php" class="header_pHolistica">Mujer Holistica</a>
 			<nav class="navegacion">
-				<a href="Conocenos.html" class="header_menu">Conocenos</a>
-				<a href="Servicios.html" class="header_menu">Servicios</a>
-				<a href="ubicacion.html" class="header_menu">Contactanos</a>
-				<a href="#" class="header_menu">Darse de alta</a>
-				<a href="#" class="header_menu">Cuenta</a>
-			</nav>
+				<a href="index.php?menu=conocenos" class="header_menu">Conocenos</a>
+				<a href="index.php?menu=servicios" class="header_menu">Servicios</a>
+				<a href="index.php?menu=contactanos" class="header_menu">Contactanos</a>
+				<a href="index.php?menu=alta" class="header_menu">Darse de alta</a>
+				<a href="close_sesion.php?close" class="header_menu">Salir</a>
+			</nav>	
 		</div>
 	</header>
 

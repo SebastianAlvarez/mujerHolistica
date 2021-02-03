@@ -1,41 +1,47 @@
 <?php
+session_start();
+
 $alerta = " ";
 if (isset($_POST["sesion"])) {
     $folio = trim($_POST['folio']);
     $password = trim($_POST['password']);
-    validacion($folio, $password);
-}
-require_once 'views/Login.php';
-
-function validacion($folio, $password)
-{
     $rest = substr($folio, 0, -6);
+    
     switch ($rest) {
         case "01":
             if (sesionTrabajador($folio, $password)) {
-                $GLOBALS['alerta'] = "sesion valida";
+                $alerta = "sesion valida";
             } else {
-                $GLOBALS['alerta'] = "Algunos de los datos es incorrecto";
+                $alerta = "Algunos de los datos es incorrecto";
+                require_once 'views/Login.php';
             }
             break;
         case "02":
             if (sesionTrabajador($folio, $password)) {
-                $GLOBALS['alerta'] = "sesion valida";
+                $alerta = "sesion valida";
             } else {
-                $GLOBALS['alerta'] = "Algunos de los datos es incorrecto";
+                $alerta = "Algunos de los datos es incorrecto";
+                require_once 'views/Login.php';
             }
             break;
         case "03":
             if (sesionUser($folio, $password)) {
-                require_once 'index.php';
+                $_SESSION['User'] = $folio;
+                header("location:sesion_user.php");
             } else {
-                $GLOBALS['alerta'] = "Algunos de los datos es incorrecto";
+                $alerta = "Algunos de los datos es incorrecto";
+                require_once 'views/Login.php';
             }
             break;
         default:
-            $GLOBALS['alerta'] = "Folio no valido";
+            $alerta = "Folio no valido";
+            require_once 'views/Login.php';
     }
+} else {
+    require_once 'views/Login.php';
 }
+
+
 
 function sesionUser($folio, $passwword)
 {
@@ -52,12 +58,12 @@ function sesionUser($folio, $passwword)
     }
 }
 
-function sesionTrabajador($folio, $paswword)
+function sesionTrabajador($folio, $password)
 {
     require_once 'models/sesion_model.php';
     $validar = get_work($folio);
     if ($folio == $validar["folios_clinica_folio"]) {
-        if ($passwword == $validar["contrasena"]) {
+        if ($password == $validar["contrasena"]) {
             return true;
         } else {
             return false;

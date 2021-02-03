@@ -11,18 +11,24 @@ if (isset($_POST["registrar"])) {
             require_once 'models/registro_model.php';
             $registrado = set_paciente($folio, $password, $correo);
             if ($registrado) {
-                require_once 'inicioSesion.php';
+                session_start();
+                $_SESSION['User'] = $folio;
+                header("location:sesion_user.php");
             } else {
-                $alerta = "error";
+                $alerta = "Folio ya registrado";
+                require_once 'views/registro.php';
             }
         } else {
             $alerta = "Folio no valido";
+            require_once 'views/registro.php';
         }
     } else {
         $alerta = "Las contraseñas no coinciden";
+        require_once 'views/registro.php';
     }
-}
+}else{
 require_once 'views/registro.php';
+}
 
 function folio_valido($folio)
 {

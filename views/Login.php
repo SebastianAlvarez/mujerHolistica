@@ -29,7 +29,7 @@
 		<div class="imagen-login">
 			<img class="" src="Images/LoginIcon.png">
 		</div>
-		<form method="POST">
+		<form " method="POST">
 			<div class="row my-3">
 				<label for="email" class="col-12 col-md-3 text-center ">Folio: </label>
 				<input class="art_bd-email col-12 col-md" type="text" name="folio" maxlength="8" placeholder="Ejemplo: 12345678" required>
