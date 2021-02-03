@@ -47,7 +47,7 @@
 			<button type="submit" class="art_bd-accept" name= "registrar">Aceptar</button></th>
 
 		</form>
-		<div>
+		<div class="bg-danger bg-gradient  p-2 alerta">
 			<h4><?php echo $alerta; ?></h4>
 		</div>
 		<p class="text-center">¿Ya tienes cuenta? Inicia sesión dando click <a href="inicioSesion.php">aqui</a></p>

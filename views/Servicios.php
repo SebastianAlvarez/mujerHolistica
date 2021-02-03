@@ -25,6 +25,40 @@
 
 	<main>
 		<h1 class="text-center">Nuestros Servicios</h1>
+		<div class="info-general">
+			<p>En Mujer Holística estamos comprometidos con el servicio de asistencia a todas aquellas mujeres que lo requieran, sin importar condiciones de raciales o religiosas, es por esto que hemos buscado concretar una serie de servicios completos que, en base a los más altos estándares de bienestar social, cumplan con las características necesarias para lograr ayudar a las mujeres que se encuentren en búsqueda de ayuda u orientación.
+			</p>
+			<div class="imagen-s">
+				<img src="Images/Fotos Clinica/imagen-servicios.jpg" alt="">
+			</div>
+			<p>En Mujer Holística hemos logrado reunir a una gran cantidad de expertos capaces de brindar ayuda en ámbitos tanto médicos como legales, gracias a su espíritu de ayuda y su compromiso somos capaces de brindar asistencia en las siguientes áreas</p>
+			<div>
+				<div class="servicios">
+					<h2>Ginecología</h2>
+					<div class="imagen-servicios">
+						<img src="Images/Fotos Clinica/ultrasonido1.png" alt="">
+					</div>
+				</div>
+				<div class="servicios">
+					<div class="imagen-servicios">
+						<img src="Images/Fotos Clinica/psicologia-s.jpg" alt="">
+					</div>
+					<h2>Psicología</h2>
+				</div>
+				<div class="servicios">
+					<h2>Nutrición</h2>
+					<div class="imagen-servicios">
+						<img src="Images/Fotos Clinica/nutriologa2.jpg" alt="">
+					</div>
+				</div>
+				<div class="servicios">
+					<div class="imagen-servicios">
+						<img src="Images/Fotos Clinica/asesoramiento.jpg" alt="">
+					</div>
+					<h2>Asesoramiento Legal</h2>
+				</div>
+			</div>
+		</div>
 
 		
 	</main>

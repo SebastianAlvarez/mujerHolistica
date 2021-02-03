@@ -198,3 +198,46 @@ body
 .mapa{
 	text-align: center;
 }
+
+.alerta{
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.alerta h4{
+	text-align: center;
+	font-size: 25px;
+	color: white
+}
+
+.info-general{
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.info-general p{
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+.imagen-s{
+	height: 350px;
+	text-align: center;
+}
+
+.servicios{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+
+.servicios .imagen-servicios{
+	flex-basis: 60%;
+}
+
+.servicios h2{
+	flex-basis: 38%;
+	font-size: 45px;
+	text-align: center;
+	margin: auto 0;
+}

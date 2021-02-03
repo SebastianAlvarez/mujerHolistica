@@ -27,13 +27,10 @@
 		<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
 			<div class="carousel-inner">
 				<div class="carousel-item active">
-					<img src="Images/Fotos Clinica/embarazo1.jpg" class="d-block w-100 img-fluid imagen-size" alt="...">
+					<img src="Images/Fotos Clinica/ginecologia.jpg" class="d-block w-100 img-fluid imagen-size" alt="...">
 				</div>
 				<div class="carousel-item">
-					<img src="Images/Fotos Clinica/nutriologa.jpg" class="d-block w-100 img-fluid imagen-size" alt="...">
-				</div>
-				<div class="carousel-item">
-					<img src="Images/Fotos Clinica/asesoramiento.jpg" class="d-block w-100 img-fluid imagen-size" alt="...">
+					<img src="Images/Fotos Clinica/psicologia.jpg" class="d-block w-100 img-fluid imagen-size" alt="...">
 				</div>
 			</div>
 			<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
