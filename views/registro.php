@@ -30,7 +30,7 @@
 		<form method="POST">
 			<div class="row mt-3">
 				<label for="folio" class="col-12 col-md-3 text-center ">folio: </label>
-				<input class="art_bd-email col-12 col-md" type="text" name="folio" maxlength="8" placeholder="12345678" required>
+				<input class="art_bd-email col-12 col-md" type="text" name="folio" maxlength="8" placeholder="Ejemplo: 12345678" required>
 			</div>
 			<div class="row my-3">
 				<label for="correo" class="col-12 col-md-3 text-center ">Correo Electronico: </label>
