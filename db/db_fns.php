@@ -15,7 +15,21 @@ function get_validate($sql)
     }
 }
 
+function get_items($sql)
+{
+    require_once 'db/connection.php';
+    $conn = get_connection();
+    $result = mysqli_query($conn, $sql);
+    $items_array = array();
 
+    if (mysqli_num_rows($result) > 0) {
+        while ($row = mysqli_fetch_assoc($result)) {
+            $items_array[] = $row;
+        }
+    }
+    mysqli_close($conn);
+    return $items_array;
+}
 
 
 
